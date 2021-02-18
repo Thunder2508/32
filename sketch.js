@@ -21,7 +21,7 @@ function setup(){
 
     ground1=new Ground(500,300,280,30);
     ground2=new Ground(950,250,300,30);
-   ground3=new Ground(600,390,1200,30);
+   //ground3=new Ground(600,390,1200,30);
     box1=new Box(380,200,50,50);
     box2=new Box(430,200,50,50);
     box3=new Box(480,200,50,50);
@@ -98,7 +98,7 @@ function draw(){
     fill("pink");
     box27.display();
     fill("brown");
-    ground3.display();
+   // ground3.display();
 
 
 }
